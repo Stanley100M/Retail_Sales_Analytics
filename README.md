@@ -102,15 +102,29 @@ The project uses four datasets:
 * One Store → Many Sales
 * One Sale → One Product Record
 
+## Technical Implementation
 
+**1. Table Creation & Constraints**
 
+* Primary Keys
+* Foreign Keys
+* NOT NULL constraints
+* CHECK constraints
+* Sequences for auto-generated IDs
 
+**2. Indexing Strategy**
 
+Implemented:
 
+* Single-column indexes (CustomerID, Sale_Date, ProductCategory)
+* Composite indexes (Sale_Date + StoreID)
+* Function-based index (UPPER(City))
 
+Purpose:
 
-
-
+* Improve query performance
+* Optimize joins
+* Speed up reporting views
 
 
 
