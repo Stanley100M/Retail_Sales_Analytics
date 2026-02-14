@@ -110,7 +110,6 @@ The project uses four datasets:
 * Foreign Keys
 * NOT NULL constraints
 * CHECK constraints
-* Sequences for auto-generated IDs
 
 **2. Indexing Strategy**
 
@@ -126,17 +125,136 @@ Purpose:
 * Optimize joins
 * Speed up reporting views
 
+**3. Analytical Views (CREATE VIEW)**
+
+Created business-focused views:
+
+* Customer Lifetime Value
+* Monthly Sales Performance
+* Top 10 Customers
+* Sales by State
+* Store Performance Dashboard
+* Product Category Revenue
+* Discount Impact Analysis
+
+Advanced SQL Techniques Used
+
+RANK()
+
+DENSE_RANK()
+
+LAG()
+
+LEAD()
+
+ROLLUP
+
+CUBE
+
+Window Functions
+
+Aggregations with PARTITION BY
+
+Correlated Subqueries
+
+🔹 5. Triggers
+
+Implemented automated database logic:
+
+Auto-calculate Sales_Amount
+
+Prevent invalid discount values
+
+Audit logging for new sales
+
+Automatic customer type update
+
+6. Stored Procedures
+
+Created procedures for:
+
+Retrieving customer sales history
+
+Applying bulk discounts
+
+Generating monthly reports
+
+Updating customer segmentation
+
+Includes:
+
+Input parameters
+
+Cursors
+
+Looping
+
+Exception handling
+
+7. PL/SQL Package
+
+Developed reusable package:
+
+SALES_ANALYTICS_PKG
+
+Includes:
+
+Functions for total sales
+
+Customer LTV calculation
+
+Discount management procedures
+
+Benefits:
+
+Modular code
+
+Reusability
+
+Enterprise-style architecture
+
+8. Exception Handling
+
+Implemented:
+
+Custom exceptions
+
+NO_DATA_FOUND handling
+
+OTHERS exception logging
+
+Validation logic in triggers & procedures
+
+📊 Business Questions Answered
+
+Who are the top 10 revenue-generating customers?
+
+Which state generates the highest revenue?
+
+What is the month-over-month sales growth?
+
+Which product category drives the most profit?
+
+How do discounts impact revenue?
+
+Which sales channel performs best?
 
 
-
-
-
-
-
-
-
-
-
+Retail-Sales-Oracle-Analytics/
+│
+├── 01_table_creation.sql
+├── 02_constraints.sql
+├── 03_indexes.sql
+├── 04_views.sql
+├── 05_analytical_queries.sql
+├── 06_triggers.sql
+├── 07_stored_procedures.sql
+├── 08_packages.sql
+├── 09_exception_handling.sql
+├── 10_performance_tuning.sql
+│
+├── ER_Diagram.png
+└── README.md
 
 
 
