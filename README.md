@@ -137,107 +137,79 @@ Created business-focused views:
 * Product Category Revenue
 * Discount Impact Analysis
 
-Advanced SQL Techniques Used
+**4. Advanced SQL Techniques Used**
 
-RANK()
+* RANK()
+* DENSE_RANK()
+* LAG()
+* LEAD()
+* ROLLUP
+* CUBE
+* Window Functions
+* Aggregations with PARTITION BY
+* Correlated Subqueries
 
-DENSE_RANK()
-
-LAG()
-
-LEAD()
-
-ROLLUP
-
-CUBE
-
-Window Functions
-
-Aggregations with PARTITION BY
-
-Correlated Subqueries
-
-🔹 5. Triggers
+**5. Triggers**
 
 Implemented automated database logic:
 
-Auto-calculate Sales_Amount
+* Auto-calculate Sales_Amount
+* Prevent invalid discount values
+* Audit logging for new sales
+* Automatic customer type update
 
-Prevent invalid discount values
-
-Audit logging for new sales
-
-Automatic customer type update
-
-6. Stored Procedures
+**6. Stored Procedures**
 
 Created procedures for:
 
-Retrieving customer sales history
-
-Applying bulk discounts
-
-Generating monthly reports
-
-Updating customer segmentation
+* Retrieving customer sales history
+* Applying bulk discounts
+* Generating monthly reports
+* Updating customer segmentation
 
 Includes:
 
-Input parameters
+* Input parameters
+* Cursors
+* Looping
+* Exception handling
 
-Cursors
-
-Looping
-
-Exception handling
-
-7. PL/SQL Package
+**7. PL/SQL Package**
 
 Developed reusable package:
 
-SALES_ANALYTICS_PKG
+* SALES_ANALYTICS_PKG
 
 Includes:
 
-Functions for total sales
-
-Customer LTV calculation
-
-Discount management procedures
+* Functions for total sales
+* Customer LTV calculation
+* Discount management procedures
 
 Benefits:
 
-Modular code
-
-Reusability
+* Modular code
+* Reusability
 
 Enterprise-style architecture
 
-8. Exception Handling
+**8. Exception Handling**
 
 Implemented:
 
-Custom exceptions
+* Custom exceptions
+* NO_DATA_FOUND handling
+* OTHERS exception logging
+* Validation logic in triggers & procedures
 
-NO_DATA_FOUND handling
+## Business Questions Answered
 
-OTHERS exception logging
-
-Validation logic in triggers & procedures
-
-📊 Business Questions Answered
-
-Who are the top 10 revenue-generating customers?
-
-Which state generates the highest revenue?
-
-What is the month-over-month sales growth?
-
-Which product category drives the most profit?
-
-How do discounts impact revenue?
-
-Which sales channel performs best?
+* Who are the top 10 revenue-generating customers?
+* Which state generates the highest revenue?
+* What is the month-over-month sales growth?
+* Which product category drives the most profit?
+* How do discounts impact revenue?
+* Which sales channel performs best?
 
 
 Retail-Sales-Oracle-Analytics/
