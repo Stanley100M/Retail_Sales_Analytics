@@ -155,7 +155,6 @@ Implemented automated database logic:
 
 * Auto-calculate Sales_Amount
 * Prevent invalid discount values
-* Audit logging for new sales
 * Automatic customer type update
 
 **6. Stored Procedures**
