@@ -227,7 +227,10 @@ Retail-Sales-Oracle-Analytics/
 ├── ER_Diagram.png
 └── README.md
 
+---
+Author
 
+Stanley Eric
 
 
 
